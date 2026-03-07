@@ -75,6 +75,9 @@ st.markdown(
     """
     <style>
     footer                                   { visibility: hidden; }
+    /* Rend le bouton collapse/expand de la sidebar toujours visible */
+    [data-testid="collapsedControl"]         { visibility: visible !important; color: #1a56db !important; }
+    [data-testid="collapsedControl"] svg     { fill: #1a56db !important; }
     /* Cache la toolbar en haut à droite (Share, GitHub, deploy...) */
     [data-testid="stToolbar"]                { display: none !important; }
     [data-testid="stDecoration"]             { display: none !important; }
