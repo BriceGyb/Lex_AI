@@ -1,0 +1,23 @@
+# Secrets — NEVER commit
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Backups
+*.backup.json
+
+# PDF (large file)
+LexAI_Document_Technique.pdf
+
+# OS
+.DS_Store
+Thumbs.db

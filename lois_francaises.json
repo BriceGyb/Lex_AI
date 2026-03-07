@@ -1,0 +1,410 @@
+{
+  "corpus_juridique": [
+    {
+      "id": "LEGIARTI000006419280",
+      "code": "Code Civil",
+      "article": "Article 1",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Les lois et, lorsqu'ils sont publiés au Journal officiel de la République française, les actes administratifs entrent en vigueur à la date qu'ils fixent ou, à défaut, le lendemain de leur publication. Toutefois, l'entrée en vigueur de celles de leurs dispositions dont l'exécution nécessite des mesures d'application est reportée à la date d'entrée en vigueur de ces mesures. En cas d'urgence, entrent en vigueur dès leur publication les lois dont le décret de promulgation le prescrit et les actes administratifs pour lesquels le Gouvernement l'ordonne par une disposition spéciale. Les dispositions du présent article ne sont pas applicables aux actes individuels."
+    },
+    {
+      "id": "LEGIARTI000006419281",
+      "code": "Code Civil",
+      "article": "Article 2",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "La loi ne dispose que pour l'avenir ; elle n'a point d'effet rétroactif."
+    },
+    {
+      "id": "LEGIARTI000006419282",
+      "code": "Code Civil",
+      "article": "Article 3",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Les lois de police et de sûreté obligent tous ceux qui habitent le territoire. Les immeubles, même ceux possédés par des étrangers, sont régis par la loi française. Les lois concernant l'état et la capacité des personnes régissent les Français, même résidant en pays étranger."
+    },
+    {
+      "id": "LEGIARTI000006419283",
+      "code": "Code Civil",
+      "article": "Article 4",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Le juge qui refusera de juger, sous prétexte du silence, de l'obscurité ou de l'insuffisance de la loi, pourra être poursuivi comme coupable de déni de justice."
+    },
+    {
+      "id": "LEGIARTI000006419284",
+      "code": "Code Civil",
+      "article": "Article 5",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Il est défendu aux juges de prononcer par voie de disposition générale et réglementaire sur les causes qui leur sont soumises."
+    },
+    {
+      "id": "LEGIARTI000006419285",
+      "code": "Code Civil",
+      "article": "Article 6",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "On ne peut déroger, par des conventions particulières, aux lois qui intéressent l'ordre public et les bonnes moeurs."
+    },
+    {
+      "id": "LEGIARTI000043895587",
+      "code": "Code Civil",
+      "article": "Article 6-1",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Le mariage et la filiation adoptive emportent les mêmes effets, droits et obligations reconnus par les lois, à l'exclusion de ceux prévus aux chapitres Ier à IV du titre VII du livre Ier du présent code, que les époux ou les parents soient de sexe différent ou de même sexe."
+    },
+    {
+      "id": "LEGIARTI000046371989",
+      "code": "Code Civil",
+      "article": "Article 6-2",
+      "domaine": "Code Civil — Titre préliminaire : De la publication, des effets et de l'application des lois en général",
+      "texte": "Tous les enfants dont la filiation est légalement établie ont, dans leurs rapports avec leurs parents, les mêmes droits et les mêmes devoirs, sous réserve des dispositions propres à l'adoption simple. La filiation fait entrer l'enfant dans la famille de chacun de ses parents."
+    },
+    {
+      "id": "LEGIARTI000006419286",
+      "code": "Code Civil",
+      "article": "Article 7",
+      "domaine": "Code Civil — Titre Ier : Des droits civils",
+      "texte": "L'exercice des droits civils est indépendant de l'exercice des droits politiques, lesquels s'acquièrent et se conservent conformément aux lois constitutionnelles et électorales."
+    },
+    {
+      "id": "LEGIARTI000006419287",
+      "code": "Code Civil",
+      "article": "Article 8",
+      "domaine": "Code Civil — Titre Ier : Des droits civils",
+      "texte": "Tout Français jouira des droits civils."
+    },
+    {
+      "id": "LEGIARTI000006417175",
+      "code": "Code Pénal",
+      "article": "Article 111-1",
+      "domaine": "Code Pénal — Chapitre Ier : Des principes généraux",
+      "texte": "Les infractions pénales sont classées, suivant leur gravité, en crimes, délits et contraventions."
+    },
+    {
+      "id": "LEGIARTI000006417176",
+      "code": "Code Pénal",
+      "article": "Article 111-2",
+      "domaine": "Code Pénal — Chapitre Ier : Des principes généraux",
+      "texte": "La loi détermine les crimes et délits et fixe les peines applicables à leurs auteurs. Le règlement détermine les contraventions et fixe, dans les limites et selon les distinctions établies par la loi, les peines applicables aux contrevenants."
+    },
+    {
+      "id": "LEGIARTI000006417177",
+      "code": "Code Pénal",
+      "article": "Article 111-3",
+      "domaine": "Code Pénal — Chapitre Ier : Des principes généraux",
+      "texte": "Nul ne peut être puni pour un crime ou pour un délit dont les éléments ne sont pas définis par la loi, ou pour une contravention dont les éléments ne sont pas définis par le règlement. Nul ne peut être puni d'une peine qui n'est pas prévue par la loi, si l'infraction est un crime ou un délit, ou par le règlement, si l'infraction est une contravention."
+    },
+    {
+      "id": "LEGIARTI000006417178",
+      "code": "Code Pénal",
+      "article": "Article 111-4",
+      "domaine": "Code Pénal — Chapitre Ier : Des principes généraux",
+      "texte": "La loi pénale est d'interprétation stricte."
+    },
+    {
+      "id": "LEGIARTI000006417179",
+      "code": "Code Pénal",
+      "article": "Article 111-5",
+      "domaine": "Code Pénal — Chapitre Ier : Des principes généraux",
+      "texte": "Les juridictions pénales sont compétentes pour interpréter les actes administratifs, réglementaires ou individuels et pour en apprécier la légalité lorsque, de cet examen, dépend la solution du procès pénal qui leur est soumis."
+    },
+    {
+      "id": "LEGIARTI000006417180",
+      "code": "Code Pénal",
+      "article": "Article 112-1",
+      "domaine": "Code Pénal — Chapitre II : De l'application de la loi pénale dans le temps",
+      "texte": "Sont seuls punissables les faits constitutifs d'une infraction à la date à laquelle ils ont été commis. Peuvent seules être prononcées les peines légalement applicables à la même date. Toutefois, les dispositions nouvelles s'appliquent aux infractions commises avant leur entrée en vigueur et n'ayant pas donné lieu à une condamnation passée en force de chose jugée lorsqu'elles sont moins sévères que les dispositions anciennes."
+    },
+    {
+      "id": "LEGIARTI000006417183",
+      "code": "Code Pénal",
+      "article": "Article 112-3",
+      "domaine": "Code Pénal — Chapitre II : De l'application de la loi pénale dans le temps",
+      "texte": "Les lois relatives à la nature et aux cas d'ouverture des voies de recours ainsi qu'aux délais dans lesquels elles doivent être exercées et à la qualité des personnes admises à se pourvoir sont applicables aux recours formés contre les décisions prononcées après leur entrée en vigueur. Les recours sont soumis aux règles de forme en vigueur au jour où ils sont exercés."
+    },
+    {
+      "id": "LEGIARTI000006417184",
+      "code": "Code Pénal",
+      "article": "Article 112-4",
+      "domaine": "Code Pénal — Chapitre II : De l'application de la loi pénale dans le temps",
+      "texte": "L'application immédiate de la loi nouvelle est sans effet sur la validité des actes accomplis conformément à la loi ancienne. Toutefois, la peine cesse de recevoir exécution quand elle a été prononcée pour un fait qui, en vertu d'une loi postérieure au jugement, n'a plus le caractère d'une infraction pénale."
+    },
+    {
+      "id": "LEGIARTI000006417186",
+      "code": "Code Pénal",
+      "article": "Article 113-1",
+      "domaine": "Code Pénal — Chapitre III : De l'application de la loi pénale dans l'espace",
+      "texte": "Pour l'application du présent chapitre, le territoire de la République inclut les espaces maritime et aérien qui lui sont liés."
+    },
+    {
+      "id": "LEGIARTI000018764571",
+      "code": "Code du Travail",
+      "article": "Article L1",
+      "domaine": "Code du Travail — Chapitre préliminaire : Dialogue social.\r\n\r\n\r\n",
+      "texte": "Tout projet de réforme envisagé par le Gouvernement qui porte sur les relations individuelles et collectives du travail, l'emploi et la formation professionnelle et qui relève du champ de la négociation nationale et interprofessionnelle fait l'objet d'une concertation préalable avec les organisations syndicales de salariés et d'employeurs représentatives au niveau national et interprofessionnel en vue de l'ouverture éventuelle d'une telle négociation. A cet effet, le Gouvernement leur communique un document d'orientation présentant des éléments de diagnostic, les objectifs poursuivis et les principales options. Lorsqu'elles font connaître leur intention d'engager une telle négociation, les organisations indiquent également au Gouvernement le délai qu'elles estiment nécessaire pour conduire la négociation. Le présent article n'est pas applicable en cas d'urgence. Lorsque le Gouvernement décide de mettre en oeuvre un projet de réforme en l'absence de procédure de concertation, il fait connaître cette décision aux organisations mentionnées au premier alinéa en la motivant dans un document qu'il transmet à ces organisations avant de prendre toute mesure nécessitée par l'urgence."
+    },
+    {
+      "id": "LEGIARTI000042654546",
+      "code": "Code du Travail",
+      "article": "Article L2",
+      "domaine": "Code du Travail — Chapitre préliminaire : Dialogue social.\r\n\r\n\r\n",
+      "texte": "Le Gouvernement soumet les projets de textes législatifs et réglementaires élaborés dans le champ défini par l'article L. 1 , au vu des résultats de la procédure de concertation et de négociation, à la Commission nationale de la négociation collective, de l'emploi et de la formation professionnelle dans les conditions prévues à l'article L. 2271-1 ."
+    },
+    {
+      "id": "LEGIARTI000042654542",
+      "code": "Code du Travail",
+      "article": "Article L3",
+      "domaine": "Code du Travail — Chapitre préliminaire : Dialogue social.\r\n\r\n\r\n",
+      "texte": "Chaque année, les orientations de la politique du Gouvernement dans les domaines des relations individuelles et collectives du travail, de l'emploi et de la formation professionnelle, ainsi que le calendrier envisagé pour leur mise en oeuvre sont présentés pour l'année à venir devant la Commission nationale de la négociation collective, de l'emploi et de la formation professionnelle. Les organisations mentionnées à l'article L. 1 présentent, pour leur part, l'état d'avancement des négociations interprofessionnelles en cours ainsi que le calendrier de celles qu'elles entendent mener ou engager dans l'année à venir. Le compte rendu des débats est publié. Chaque année, le Gouvernement remet au Parlement un rapport faisant état de toutes les procédures de concertation et de consultation mises en oeuvre pendant l'année écoulée en application des articles L. 1 et L. 2 , des différents domaines dans lesquels ces procédures sont intervenues et des différentes phases de ces procédures."
+    },
+    {
+      "id": "LEGIARTI000006900781",
+      "code": "Code du Travail",
+      "article": "Article L1111-1",
+      "domaine": "Code du Travail — Chapitre unique.",
+      "texte": "Les dispositions du présent livre sont applicables aux employeurs de droit privé ainsi qu'à leurs salariés. Elles sont également applicables au personnel des personnes publiques employé dans les conditions du droit privé, sous réserve des dispositions particulières ayant le même objet résultant du statut qui régit ce personnel."
+    },
+    {
+      "id": "LEGIARTI000019353569",
+      "code": "Code du Travail",
+      "article": "Article L1111-2",
+      "domaine": "Code du Travail — Chapitre unique.",
+      "texte": "Pour la mise en oeuvre des dispositions du présent code, les effectifs de l'entreprise sont calculés conformément aux dispositions suivantes : 1° Les salariés titulaires d'un contrat de travail à durée indéterminée à temps plein et les travailleurs à domicile sont pris intégralement en compte dans l'effectif de l'entreprise ; 2° Les salariés titulaires d'un contrat de travail à durée déterminée, les salariés titulaires d'un contrat de travail intermittent, les salariés mis à la disposition de l'entreprise par une entreprise extérieure qui sont présents dans les locaux de l'entreprise utilisatrice et y travaillent depuis au moins un an, ainsi que les salariés temporaires, sont pris en compte dans l'effectif de l'entreprise à due proportion de leur temps de présence au cours des douze mois précédents. Toutefois, les salariés titulaires d'un contrat de travail à durée déterminée et les salariés mis à disposition par une entreprise extérieure, y compris les salariés temporaires, sont exclus du décompte des effectifs lorsqu'ils remplacent un salarié absent ou dont le contrat de travail est suspendu, notamment du fait d'un congé de maternité, d'un congé d'adoption ou d'un congé parental d'éducation ; 3° Les salariés à temps partiel, quelle que soit la nature de leur contrat de travail, sont pris en compte en divisant la somme totale des horaires inscrits dans leurs contrats de travail par la durée légale ou la durée conventionnelle du travail."
+    },
+    {
+      "id": "LEGIARTI000031565369",
+      "code": "Code du Travail",
+      "article": "Article L1111-3",
+      "domaine": "Code du Travail — Chapitre unique.",
+      "texte": "Ne sont pas pris en compte dans le calcul des effectifs de l'entreprise : 1° Les apprentis ; 2° Les titulaires d'un contrat initiative-emploi, pendant la durée d'attribution de l'aide financière mentionnée à l'article L. 5134-72 ; 3° (Abrogé) ; 4° Les titulaires d'un contrat d'accompagnement dans l'emploi pendant la durée d'attribution de l'aide financière mentionnée à l'article L. 5134-30 ; 5° (Abrogé) ; 6° Les titulaires d'un contrat de professionnalisation jusqu'au terme prévu par le contrat lorsque celui-ci est à durée déterminée ou jusqu'à la fin de l'action de professionnalisation lorsque le contrat est à durée indéterminée. Toutefois, ces salariés sont pris en compte pour l'application des dispositions légales relatives à la tarification des risques d'accidents du travail et de maladies professionnelles."
+    },
+    {
+      "id": "LEGIARTI000006900785",
+      "code": "Code du Travail",
+      "article": "Article L1121-1",
+      "domaine": "Code du Travail — Chapitre unique.",
+      "texte": "Nul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché."
+    },
+    {
+      "id": "LEGIARTI000045389811",
+      "code": "Code du Travail",
+      "article": "Article L1121-2",
+      "domaine": "Code du Travail — Chapitre unique.",
+      "texte": "Aucune personne ne peut être écartée d'une procédure de recrutement ou de l'accès à un stage ou à une période de formation en entreprise, aucun salarié ne peut être sanctionné, licencié ni faire l'objet d'une mesure discriminatoire, directe ou indirecte, notamment en matière de rémunération, au sens de l'article L. 3221-3 , de mesures d'intéressement ou de distribution d'actions, de formation, de reclassement, d'affectation, de qualification, de classification, de promotion professionnelle, d'horaires de travail, d'évaluation de la performance, de mutation ou de renouvellement de contrat, ni de toute autre mesure mentionnée au II de l'article 10-1 de la loi n° 2016-1691 du 9 décembre 2016 relative à la transparence, à la lutte contre la corruption et à la modernisation de la vie économique, pour avoir signalé ou divulgué des informations dans les conditions prévues aux articles 6 et 8 de la même loi."
+    },
+    {
+      "id": "LEGIARTI000006900786",
+      "code": "Code du Travail",
+      "article": "Article L1131-1",
+      "domaine": "Code du Travail — Chapitre Ier : Champ d'application.",
+      "texte": "Les dispositions du présent titre sont applicables aux employeurs de droit privé ainsi qu'à leurs salariés. Elles sont également applicables au personnel des personnes publiques employé dans les conditions du droit privé."
+    },
+    {
+      "id": "LEGIARTI000033957410",
+      "code": "Code du Travail",
+      "article": "Article L1131-2",
+      "domaine": "Code du Travail — Chapitre Ier : Champ d'application.",
+      "texte": "Dans toute entreprise employant au moins trois cents salariés et dans toute entreprise spécialisée dans le recrutement, les employés chargés des missions de recrutement reçoivent une formation à la non-discrimination à l'embauche au moins une fois tous les cinq ans."
+    },
+    {
+      "id": "LEGIARTI000044072567",
+      "code": "Code de Commerce",
+      "article": "Article L110-1",
+      "domaine": "Code de Commerce — TITRE Ier : De l'acte de commerce.",
+      "texte": "La loi répute actes de commerce : 1° Tout achat de biens meubles pour les revendre, soit en nature, soit après les avoir travaillés et mis en oeuvre ; 2° Tout achat de biens immeubles aux fins de les revendre, à moins que l'acquéreur n'ait agi en vue d'édifier un ou plusieurs bâtiments et de les vendre en bloc ou par locaux ; 3° Toutes opérations d'intermédiaire pour l'achat, la souscription ou la vente d'immeubles, de fonds de commerce, d'actions ou parts de sociétés immobilières ; 4° Toute entreprise de location de meubles ; 5° Toute entreprise de manufactures, de commission, de transport par terre ou par eau ; 6° Toute entreprise de fournitures, d'agence, bureaux d'affaires, établissements de ventes à l'encan, de spectacles publics ; 7° Toute opération de change, banque, courtage, activité d'émission et de gestion de monnaie électronique et tout service de paiement ; 8° Toutes les opérations de banques publiques ; 9° Toutes obligations entre négociants, marchands et banquiers ; 10° Entre toutes personnes, les lettres de change ; 11° Entre toutes personnes, les cautionnements de dettes commerciales."
+    },
+    {
+      "id": "LEGIARTI000006219126",
+      "code": "Code de Commerce",
+      "article": "Article L110-2",
+      "domaine": "Code de Commerce — TITRE Ier : De l'acte de commerce.",
+      "texte": "La loi répute pareillement actes de commerce : 1° Toute entreprise de construction, et tous achats, ventes et reventes de bâtiments pour la navigation intérieure et extérieure ; 2° Toutes expéditions maritimes ; 3° Tout achat et vente d'agrès, apparaux et avitaillements ; 4° Tout affrètement ou nolisement, emprunt ou prêt à la grosse ; 5° Toutes assurances et autres contrats concernant le commerce de mer ; 6° Tous accords et conventions pour salaires et loyers d'équipages ; 7° Tous engagements de gens de mer pour le service de bâtiments de commerce."
+    },
+    {
+      "id": "LEGIARTI000006219127",
+      "code": "Code de Commerce",
+      "article": "Article L110-3",
+      "domaine": "Code de Commerce — TITRE Ier : De l'acte de commerce.",
+      "texte": "A l'égard des commerçants, les actes de commerce peuvent se prouver par tous moyens à moins qu'il n'en soit autrement disposé par la loi."
+    },
+    {
+      "id": "LEGIARTI000027725867",
+      "code": "Code de Commerce",
+      "article": "Article L110-4",
+      "domaine": "Code de Commerce — TITRE Ier : De l'acte de commerce.",
+      "texte": "I.-Les obligations nées à l'occasion de leur commerce entre commerçants ou entre commerçants et non-commerçants se prescrivent par cinq ans si elles ne sont pas soumises à des prescriptions spéciales plus courtes. II.-Sont prescrites toutes actions en paiement : 1° Pour nourriture fournie aux matelots par l'ordre du capitaine, un an après la livraison ; 2° Pour fourniture de matériaux et autres choses nécessaires aux constructions, équipements et avitaillements du navire, un an après ces fournitures faites ; 3° Pour ouvrages faits, un an après la réception des ouvrages."
+    },
+    {
+      "id": "LEGIARTI000006219167",
+      "code": "Code de Commerce",
+      "article": "Article L121-1",
+      "domaine": "Code de Commerce — Section 1 : De la qualité de commerçant.",
+      "texte": "Sont commerçants ceux qui exercent des actes de commerce et en font leur profession habituelle."
+    },
+    {
+      "id": "LEGIARTI000039280381",
+      "code": "Code de Commerce",
+      "article": "Article L121-2",
+      "domaine": "Code de Commerce — Section 1 : De la qualité de commerçant.",
+      "texte": "Le mineur émancipé peut être commerçant sur autorisation du juge des tutelles au moment de la décision d'émancipation et du président du tribunal judiciaire s'il formule cette demande après avoir été émancipé."
+    },
+    {
+      "id": "LEGIARTI000006219181",
+      "code": "Code de Commerce",
+      "article": "Article L121-3",
+      "domaine": "Code de Commerce — Section 1 : De la qualité de commerçant.",
+      "texte": "Le conjoint d'un commerçant n'est réputé lui-même commerçant que s'il exerce une activité commerciale séparée de celle de son époux."
+    },
+    {
+      "id": "LEGIARTI000044056252",
+      "code": "Code de Commerce",
+      "article": "Article L121-4",
+      "domaine": "Code de Commerce — Section 2 : Du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin du chef d'entreprise, travaillant dans l'entreprise familiale",
+      "texte": "I. - Le conjoint du chef d'une entreprise artisanale, commerciale ou libérale qui y exerce de manière régulière une activité professionnelle opte pour l'un des statuts suivants : 1° Conjoint collaborateur ; 2° Conjoint salarié ; 3° Conjoint associé. II. - En ce qui concerne les sociétés, le statut de conjoint collaborateur n'est autorisé qu'au conjoint du gérant associé unique ou du gérant associé majoritaire d'une société à responsabilité limitée ou d'une société d'exercice libéral à responsabilité limitée. Le choix effectué par le conjoint du gérant associé majoritaire de bénéficier du statut de conjoint collaborateur est porté à la connaissance des associés lors de la première assemblée générale suivant la mention de ce statut auprès des organismes mentionnés au IV. III. - Les droits et obligations professionnels et sociaux du conjoint résultent du statut pour lequel il a opté. IV.-Le chef d'entreprise est tenu de déclarer l'activité professionnelle régulière de son conjoint dans l'entreprise et le statut choisi par ce dernier auprès des organismes habilités à enregistrer l'immatriculation de l'entreprise. Seul le conjoint collaborateur fait l'objet d'une mention au registre du commerce et des sociétés, au registre spécial des agents commerciaux, au registre spécial des entreprises individuelles à responsabilité limitée et au registre national des entreprises. A défaut de déclaration d'activité professionnelle, le conjoint ayant exercé une activité professionnelle de manière régulière dans l'entreprise est réputé l'avoir fait sous le statut de conjoint salarié. A défaut de déclaration du statut choisi, le chef d'entreprise est réputé avoir déclaré que ce statut est celui de conjoint salarié. IV bis.-Une personne ne peut conserver le statut de conjoint collaborateur pendant une durée supérieure à cinq ans, en tenant compte de l'ensemble des périodes et des entreprises au titre desquelles elle a opté pour ce statut. Au delà de cette durée, le conjoint continuant à exercer une activité professionnelle de manière régulière dans l'entreprise opte pour le statut de conjoint salarié ou de conjoint associé. A défaut, il est réputé avoir opté pour le statut de conjoint salarié. V.-La définition du conjoint collaborateur, les modalités des déclarations prévues au présent article et les autres conditions d'application du présent article sont fixées par décret en Conseil d'Etat."
+    },
+    {
+      "id": "LEGIARTI000044056248",
+      "code": "Code de Commerce",
+      "article": "Article L121-5",
+      "domaine": "Code de Commerce — Section 2 : Du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin du chef d'entreprise, travaillant dans l'entreprise familiale",
+      "texte": "Une personne dont l'entreprise est mentionnée comme relevant du secteur des métiers et de l'artisanat au registre national des entreprises ou un commerçant ne peut, sans le consentement exprès de son conjoint, lorsque celui-ci participe à son activité professionnelle en qualité de conjoint travaillant dans l'entreprise, aliéner ou grever de droits réels les éléments du fonds de commerce ou de l'entreprise artisanale dépendant de la communauté, qui, par leur importance ou par leur nature, sont nécessaires à l'exploitation de l'entreprise, ni donner à bail ce fonds de commerce ou cette entreprise artisanale. Il ne peut, sans ce consentement exprès, percevoir les capitaux provenant de telles opérations. Le conjoint qui n'a pas donné son consentement exprès à l'acte peut en demander l'annulation. L'action en nullité lui est ouverte pendant deux années à compter du jour où il a eu connaissance de l'acte, sans pouvoir jamais être intentée plus de deux ans après la dissolution de la communauté."
+    },
+    {
+      "id": "LEGIARTI000044056244",
+      "code": "Code de Commerce",
+      "article": "Article L121-6",
+      "domaine": "Code de Commerce — Section 2 : Du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin du chef d'entreprise, travaillant dans l'entreprise familiale",
+      "texte": "Le conjoint collaborateur, lorsqu'il est mentionné au registre du commerce et des sociétés ou, pour une entreprise du secteur des métiers et de l'artisanat, au registre national des entreprises, est réputé avoir reçu du chef d'entreprise le mandat d'accomplir au nom de ce dernier les actes d'administration concernant les besoins de l'entreprise. Par déclaration faite devant notaire, à peine de nullité, chaque époux a la faculté de mettre fin à la présomption de mandat, son conjoint présent ou dûment appelé. La déclaration notariée a effet, à l'égard des tiers, trois mois après que mention en aura été portée au registre du commerce et des sociétés ou, pour une entreprise du secteur des métiers et de l'artisanat, au registre national des entreprises. En l'absence de cette mention, elle n'est opposable aux tiers que s'il est établi que ceux-ci en ont eu connaissance. La présomption de mandat cesse également de plein droit en cas d'absence présumée de l'un des époux, de séparation de corps ou de séparation de biens judiciaire, de même que lorsque les conditions prévues au premier alinéa ci-dessus ne sont plus remplies."
+    },
+    {
+      "id": "LEGIARTI000006410094",
+      "code": "Code de Procédure Civile",
+      "article": "Article 1",
+      "domaine": "Code de Procédure Civile — Section I : L'instance.",
+      "texte": "Seules les parties introduisent l'instance, hors les cas où la loi en dispose autrement. Elles ont la liberté d'y mettre fin avant qu'elle ne s'éteigne par l'effet du jugement ou en vertu de la loi."
+    },
+    {
+      "id": "LEGIARTI000006410095",
+      "code": "Code de Procédure Civile",
+      "article": "Article 2",
+      "domaine": "Code de Procédure Civile — Section I : L'instance.",
+      "texte": "Les parties conduisent l'instance sous les charges qui leur incombent. Il leur appartient d'accomplir les actes de la procédure dans les formes et délais requis."
+    },
+    {
+      "id": "LEGIARTI000006410096",
+      "code": "Code de Procédure Civile",
+      "article": "Article 3",
+      "domaine": "Code de Procédure Civile — Section I : L'instance.",
+      "texte": "Le juge veille au bon déroulement de l'instance ; il a le pouvoir d'impartir les délais et d'ordonner les mesures nécessaires."
+    },
+    {
+      "id": "LEGIARTI000006410097",
+      "code": "Code de Procédure Civile",
+      "article": "Article 4",
+      "domaine": "Code de Procédure Civile — Section II : L'objet du litige.",
+      "texte": "L'objet du litige est déterminé par les prétentions respectives des parties. Ces prétentions sont fixées par l'acte introductif d'instance et par les conclusions en défense. Toutefois l'objet du litige peut être modifié par des demandes incidentes lorsque celles-ci se rattachent aux prétentions originaires par un lien suffisant."
+    },
+    {
+      "id": "LEGIARTI000006410098",
+      "code": "Code de Procédure Civile",
+      "article": "Article 5",
+      "domaine": "Code de Procédure Civile — Section II : L'objet du litige.",
+      "texte": "Le juge doit se prononcer sur tout ce qui est demandé et seulement sur ce qui est demandé."
+    },
+    {
+      "id": "LEGIARTI000006410099",
+      "code": "Code de Procédure Civile",
+      "article": "Article 6",
+      "domaine": "Code de Procédure Civile — Section III : Les faits.",
+      "texte": "A l'appui de leurs prétentions, les parties ont la charge d'alléguer les faits propres à les fonder."
+    },
+    {
+      "id": "LEGIARTI000006410100",
+      "code": "Code de Procédure Civile",
+      "article": "Article 7",
+      "domaine": "Code de Procédure Civile — Section III : Les faits.",
+      "texte": "Le juge ne peut fonder sa décision sur des faits qui ne sont pas dans le débat. Parmi les éléments du débat, le juge peut prendre en considération même les faits que les parties n'auraient pas spécialement invoqués au soutien de leurs prétentions."
+    },
+    {
+      "id": "LEGIARTI000006410101",
+      "code": "Code de Procédure Civile",
+      "article": "Article 8",
+      "domaine": "Code de Procédure Civile — Section III : Les faits.",
+      "texte": "Le juge peut inviter les parties à fournir les explications de fait qu'il estime nécessaires à la solution du litige."
+    },
+    {
+      "id": "LEGIARTI000006410102",
+      "code": "Code de Procédure Civile",
+      "article": "Article 9",
+      "domaine": "Code de Procédure Civile — Section IV : Les preuves.",
+      "texte": "Il incombe à chaque partie de prouver conformément à la loi les faits nécessaires au succès de sa prétention."
+    },
+    {
+      "id": "LEGIARTI000006410103",
+      "code": "Code de Procédure Civile",
+      "article": "Article 10",
+      "domaine": "Code de Procédure Civile — Section IV : Les preuves.",
+      "texte": "Le juge a le pouvoir d'ordonner d'office toutes les mesures d'instruction légalement admissibles."
+    },
+    {
+      "id": "LEGIARTI000049464063",
+      "code": "Code de la Consommation",
+      "article": "Article liminaire",
+      "domaine": "Code de la Consommation — Partie législative nouvelle",
+      "texte": "Pour l'application du présent code, on entend par : 1° Consommateur : toute personne physique qui agit à des fins qui n'entrent pas dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole ; 2° Non-professionnel : toute personne morale qui n'agit pas à des fins professionnelles ; 3° Professionnel : toute personne physique ou morale, publique ou privée, qui agit à des fins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole, y compris lorsqu'elle agit au nom ou pour le compte d'un autre professionnel ; 4° Producteur : le fabricant d'un bien, l'importateur d'un bien dans l'Union européenne ou toute autre personne qui se présente comme producteur en apposant sur le bien son nom, sa marque ou un autre signe distinctif ; 5° Bien comportant des éléments numériques : tout bien meuble corporel qui intègre un contenu numérique ou un service numérique ou qui est interconnecté avec un tel contenu ou un tel service, de manière telle que l'absence de ce contenu numérique ou de ce service numérique empêcherait le bien de remplir ses fonctions ; 6° Contenu numérique : des données produites et fournies sous forme numérique ; 7° Service numérique : un service permettant au consommateur de créer, de traiter ou de stocker des données sous forme numérique ou d'y accéder, ou un service permettant le partage ou toute autre interaction avec des données sous forme numérique qui sont téléversées ou créées par le consommateur ou d'autres utilisateurs de ce service ; 8° Support durable : tout instrument permettant au consommateur ou au professionnel de stocker des informations qui lui sont adressées personnellement afin de pouvoir s'y reporter ultérieurement pendant un laps de temps adapté aux fins auxquelles les informations sont destinées et qui permet la reproduction à l'identique des informations stockées ; 9° Fonctionnalité : la capacité d'un bien, d'un contenu numérique ou d'un service numérique à remplir ses fonctions eu égard à sa finalité ; 10° Compatibilité : la capacité d'un bien, d'un contenu numérique ou d'un service numérique à fonctionner avec du matériel informatique ou des logiciels, avec lesquels des biens, des contenus numériques ou des services numériques de même type sont normalement utilisés, sans qu'il soit nécessaire de convertir lesdits biens, matériels, logiciels, contenus numériques ou services numériques ; 11° Interopérabilité : la capacité d'un bien, d'un contenu numérique ou d'un service numérique à fonctionner avec du matériel informatique ou des logiciels différents de ceux avec lesquels des biens, des contenus numériques ou des services numériques de même type sont normalement utilisés ; 12° Durabilité : la capacité d'un bien à maintenir les fonctions et performances requises dans le cadre d'un usage normal ; 13° Données à caractère personnel : les données à caractère personnel telles que définies à l'article 4, point 1, du règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données ; 14° Place de marché en ligne : un service utilisant un logiciel, y compris un site internet, une partie de site internet ou une application, exploité par un professionnel ou pour son compte, qui permet aux consommateurs de conclure des contrats à distance avec d'autres professionnels ou consommateurs ; 15° Plateforme en ligne : une plateforme en ligne au sens du i de l'article 3 du règlement (UE) 2022/2065 du Parlement européen et du Conseil du 19 octobre 2022 relatif à un marché intérieur des services numériques et modifiant la directive 2000/31/ CE (règlement sur les services numériques) ; 16° Pratique commerciale : toute action, omission, conduite, démarche ou communication commerciale, y compris la publicité et le marketing, de la part d'un professionnel, en relation directe avec la promotion, la vente ou la fourniture d'un bien, d'un service, ou portant sur des droits et obligations ; 17° Moteur de recherche en ligne : un moteur de recherche en ligne au sens du j de l'article 3 du règlement (UE) 2022/2065 du Parlement européen et du Conseil du 19 octobre 2022 précité ; 18° Comparateur en ligne : tout service de communication au public en ligne consistant en la fourniture d'informations permettant la comparaison des prix et des caractéristiques de biens et de services proposés par des professionnels ; 19° Prestataire de service : toute personne qui offre ou fournit un service."
+    },
+    {
+      "id": "LEGIARTI000044142438",
+      "code": "Code de la Consommation",
+      "article": "Article L111-1",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "Avant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel communique au consommateur, de manière lisible et compréhensible, les informations suivantes : 1° Les caractéristiques essentielles du bien ou du service, ainsi que celles du service numérique ou du contenu numérique, compte tenu de leur nature et du support de communication utilisé, et notamment les fonctionnalités, la compatibilité et l'interopérabilité du bien comportant des éléments numériques, du contenu numérique ou du service numérique, ainsi que l'existence de toute restriction d'installation de logiciel ; 2° Le prix ou tout autre avantage procuré au lieu ou en complément du paiement d'un prix en application des articles L. 112-1 à L. 112-4-1 ; 3° En l'absence d'exécution immédiate du contrat, la date ou le délai auquel le professionnel s'engage à délivrer le bien ou à exécuter le service ; 4° Les informations relatives à l'identité du professionnel, à ses coordonnées postales, téléphoniques et électroniques et à ses activités, pour autant qu'elles ne ressortent pas du contexte ; 5° L'existence et les modalités de mise en œuvre des garanties légales, notamment la garantie légale de conformité et la garantie légale des vices cachés, et des éventuelles garanties commerciales, ainsi que, le cas échéant, du service après-vente et les informations afférentes aux autres conditions contractuelles ; 6° La possibilité de recourir à un médiateur de la consommation dans les conditions prévues au titre Ier du livre VI. La liste et le contenu précis de ces informations sont fixés par décret en Conseil d'Etat. Les dispositions du présent article s'appliquent également aux contrats portant sur la fourniture d'eau, de gaz ou d'électricité, y compris lorsqu'ils ne sont pas conditionnés dans un volume délimité ou en quantité déterminée, ainsi que de chauffage urbain. Ces contrats font également référence à la nécessité d'une consommation sobre et respectueuse de la préservation de l'environnement."
+    },
+    {
+      "id": "LEGIARTI000032227350",
+      "code": "Code de la Consommation",
+      "article": "Article L111-2",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "Outre les mentions prévues à l'article L. 111-1 , tout professionnel, avant la conclusion d'un contrat de fourniture de services et, lorsqu'il n'y a pas de contrat écrit, avant l'exécution de la prestation de services, met à la disposition du consommateur ou lui communique, de manière lisible et compréhensible, les informations complémentaires relatives à ses coordonnées, à son activité de prestation de services et aux autres conditions contractuelles, dont la liste et le contenu sont fixés par décret en Conseil d'Etat. Les informations complémentaires qui ne sont communiquées qu'à la demande du consommateur sont également précisées par décret en Conseil d'Etat."
+    },
+    {
+      "id": "LEGIARTI000034388081",
+      "code": "Code de la Consommation",
+      "article": "Article L111-3",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "Les dispositions des articles L. 111-1 et L. 111-2 s'appliquent sans préjudice des dispositions particulières en matière d'information des consommateurs propres à certaines activités. Les dispositions de l'article L. 111-2 ne s'appliquent ni aux services mentionnés aux livres Ier à III et au titre V du livre V du code monétaire et financier, ni aux opérations pratiquées par les entreprises régies par le code des assurances, par les fonds de retraite professionnelle supplémentaires mentionnés à l'article L. 381-1 du même code, par les mutuelles et unions régies par le livre II du code de la mutualité, par les mutuelles et unions de retraite professionnelle supplémentaire mentionnées à l'article L. 214-1 du même code, par les institutions de prévoyance et unions régies par le titre III du livre IX du code de la sécurité sociale et par les institutions de retraite professionnelle supplémentaire mentionnées à l'article L. 942-1 du même code."
+    },
+    {
+      "id": "LEGIARTI000044330854",
+      "code": "Code de la Consommation",
+      "article": "Article L111-4",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "Le fabricant ou l'importateur de biens meubles informe le vendeur professionnel de la disponibilité ou de la non-disponibilité des pièces détachées indispensables à l'utilisation des biens concernés et, le cas échéant, de la période pendant laquelle ou de la date jusqu'à laquelle ces pièces sont disponibles sur le marché. Pour les équipements électriques et électroniques et les éléments d'ameublement, lorsque cette information n'est pas fournie au vendeur professionnel, les pièces détachées indispensables à l'utilisation des biens sont réputées non disponibles. Les fabricants ou importateurs d'équipements électriques et électroniques informent les vendeurs de leurs produits ainsi que les réparateurs et les reconditionneurs professionnels, à la demande de ces derniers, du détail des éléments constituant l'engagement de durée de disponibilité des pièces détachées. Cette information est rendue disponible notamment à partir d'un support dématérialisé. Les fabricants et les importateurs d'équipements électroménagers, de petits équipements informatiques et de télécommunications, d'écrans et de moniteurs assurent, pour une liste de produits fixée par voie réglementaire, la disponibilité des pièces détachées de ces produits pendant la période de commercialisation du modèle concerné ainsi que pendant une période minimale complémentaire après la date de mise sur le marché de la dernière unité de ce modèle. La durée de cette période minimale complémentaire ne peut être inférieure à cinq ans. Les modalités d'application de cette obligation de disponibilité des pièces détachées, notamment la liste des produits et pièces concernés, les échéances à partir desquelles les pièces détachées sont disponibles pendant la commercialisation des produits ainsi que les périodes minimales complémentaires prévues sont précisées par décret en Conseil d'Etat. Ces informations sont délivrées obligatoirement au consommateur par le vendeur de manière lisible avant la conclusion du contrat et confirmées par écrit lors de l'achat du bien. Dès lors qu'il a indiqué la période ou la date mentionnées au premier alinéa, le fabricant ou l'importateur fournit obligatoirement, dans un délai de quinze jours ouvrables, dans des conditions non discriminatoires, aux vendeurs professionnels, aux reconditionneurs ou aux réparateurs, agréés ou non, qui le demandent les pièces détachées indispensables à l'utilisation des biens vendus. Pour certaines catégories de biens définies par décret, lorsqu'une pièce détachée indispensable à l'utilisation d'un bien disponible sur le marché peut être fabriquée par un moyen d'impression en trois dimensions et qu'elle n'est plus disponible sur le marché, le fabricant ou l'importateur de biens meubles doit, sous réserve du respect des droits de propriété intellectuelle et en particulier sous réserve du consentement du détenteur de la propriété intellectuelle, fournir aux vendeurs professionnels, aux reconditionneurs ou aux réparateurs, agréés ou non, qui le demandent le plan de fabrication par un moyen d'impression en trois dimensions de la pièce détachée ou, à défaut, les informations techniques utiles à l'élaboration de ce plan dont le fabricant dispose. Les modalités d'application du présent article sont précisées par décret."
+    },
+    {
+      "id": "LEGIARTI000043960416",
+      "code": "Code de la Consommation",
+      "article": "Article L111-4-1",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "I. - Les fabricants et les importateurs d'outils de bricolage et de jardinage motorisés, d'articles de sport et de loisirs, y compris les bicyclettes, de bicyclettes à assistance électrique et d'engins de déplacement personnel motorisés assurent, pour une liste de produits fixée par voie réglementaire, la disponibilité des pièces détachées de ces produits pendant la période de commercialisation du modèle concerné ainsi que pendant une période minimale complémentaire après la date de mise sur le marché de la dernière unité de ce modèle. La durée de cette période minimale complémentaire ne peut être inférieure à cinq ans. II. - Les modalités d'application du présent article, notamment la liste des produits et pièces concernés, les échéances à partir desquelles les pièces détachées sont disponibles pendant la commercialisation des produits ainsi que les périodes minimales complémentaires prévues au I sont précisées par décret en Conseil d'Etat."
+    },
+    {
+      "id": "LEGIARTI000043974986",
+      "code": "Code de la Consommation",
+      "article": "Article L111-5",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "En cas de litige relatif à l'application des dispositions des articles L. 111-1, L. 111-2, L. 111-4 et L. 111-4-1, il appartient au professionnel de prouver qu'il a exécuté ses obligations."
+    },
+    {
+      "id": "LEGIARTI000044564977",
+      "code": "Code de la Consommation",
+      "article": "Article L111-6",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "Le producteur de biens comportant des éléments numériques informe le vendeur professionnel de la durée au cours de laquelle les mises à jour logicielles, que le producteur fournit, restent compatibles avec les fonctionnalités du bien. Le vendeur met ces informations à la disposition du consommateur. Le producteur informe le consommateur, de façon lisible et compréhensible, des caractéristiques essentielles de chaque mise à jour des éléments numériques du bien, notamment de l'espace de stockage qu'elle requiert, de son impact sur les performances du bien et de l'évolution des fonctionnalités qu'elle comporte. Les modalités d'application du présent article sont précisées par décret."
+    },
+    {
+      "id": "LEGIARTI000049571125",
+      "code": "Code de la Consommation",
+      "article": "Article L111-7",
+      "domaine": "Code de la Consommation — Chapitre Ier : Obligation générale d'information précontractuelle",
+      "texte": "I. - (Abrogé). II. - Tout fournisseur de place de marché en ligne ou de comparateur en ligne est tenu de délivrer au consommateur une information loyale, claire et transparente sur : 1° Les conditions générales d'utilisation du service d'intermédiation qu'il propose et sur les modalités de classement ainsi que, s'agissant des comparateurs en ligne, de référencement et de déréférencement des contenus, des biens ou des services auxquels ce service permet d'accéder ; 2° L'existence d'une relation contractuelle, d'un lien capitalistique ou d'une rémunération à son profit, dès lors qu'ils influencent le classement ou le référencement des contenus, des biens ou des services proposés ou mis en ligne ; 3° La qualité de l'annonceur et les droits et obligations des parties en matière civile et fiscale, lorsque des consommateurs sont mis en relation avec des professionnels ou des non-professionnels. Un décret précise les conditions d'application du présent article en tenant compte de la nature de l'activité des personnes mentionnées au premier alinéa en ligne. Ce décret précise, par ailleurs, pour tout fournisseur de comparateur en ligne, les informations communiquées aux consommateurs portant sur les éléments de cette comparaison et ce qui relève de la publicité au sens de l' article 20 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique. Ce décret fixe également les modalités selon lesquelles, lorsque des professionnels, vendeurs ou prestataires de services sont mis en relation avec des consommateurs, les personnes mentionnées au premier alinéa met à leur disposition un espace leur permettant de communiquer aux consommateurs les informations prévues aux articles L. 221-5 et L. 221-6 ."
+    }
+  ]
+}
