@@ -74,23 +74,16 @@ inject_theme()
 st.markdown(
     """
     <style>
-    #MainMenu                                { visibility: hidden; }
     footer                                   { visibility: hidden; }
-    header                                   { visibility: hidden; }
-    /* Garde uniquement le bouton collapse/expand de la sidebar */
-    [data-testid="collapsedControl"]         { visibility: visible !important; }
-    /* Cache tous les boutons Streamlit Cloud */
-    [data-testid="manage-app-button"]        { display: none !important; }
+    /* Cache la toolbar en haut à droite (Share, GitHub, deploy...) */
     [data-testid="stToolbar"]                { display: none !important; }
     [data-testid="stDecoration"]             { display: none !important; }
     [data-testid="stStatusWidget"]           { display: none !important; }
+    [data-testid="manage-app-button"]        { display: none !important; }
     [data-testid="stAppViewerBadge"]         { display: none !important; }
     [data-testid="stAppDeployButton"]        { display: none !important; }
-    /* Cache avatar utilisateur et badge Streamlit en bas à droite */
-    .stApp > div:last-child iframe           { display: none !important; }
     [class*="viewerBadge"]                   { display: none !important; }
     [class*="styles_viewerBadge"]            { display: none !important; }
-    #stDecoration                            { display: none !important; }
     a[href*="streamlit.io"]                  { display: none !important; }
     </style>
     """,
