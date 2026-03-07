@@ -9,6 +9,7 @@ st.set_page_config(
     page_title="LexAI — Legal Assistant",
     page_icon="⚖️",
     layout="wide",
+    initial_sidebar_state="expanded",
 )
 
 # ── Theme toggle ────────────────────────────────────────────────────────────────
@@ -75,15 +76,6 @@ st.markdown(
     """
     <style>
     footer                                   { visibility: hidden; }
-    /* Bouton sidebar — visible en bleu sur fond blanc */
-    [data-testid="collapsedControl"] {
-        visibility: visible !important;
-        display: flex !important;
-        background-color: #1a56db !important;
-        border-radius: 0 6px 6px 0 !important;
-        padding: 6px 4px !important;
-    }
-    [data-testid="collapsedControl"] svg { fill: white !important; }
     /* Cache la toolbar en haut à droite (Share, GitHub, deploy...) */
     [data-testid="stToolbar"]                { display: none !important; }
     [data-testid="stDecoration"]             { display: none !important; }
