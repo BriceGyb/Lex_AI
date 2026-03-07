@@ -9,7 +9,6 @@ st.set_page_config(
     page_title="LexAI — Legal Assistant",
     page_icon="⚖️",
     layout="wide",
-    initial_sidebar_state="expanded",
 )
 
 # ── Theme toggle ────────────────────────────────────────────────────────────────
@@ -70,26 +69,6 @@ def inject_theme():
     st.markdown(css, unsafe_allow_html=True)
 
 inject_theme()
-
-# Masquer les éléments Streamlit Cloud (toolbar, footer, header)
-st.markdown(
-    """
-    <style>
-    footer                                   { visibility: hidden; }
-    /* Cache la toolbar en haut à droite (Share, GitHub, deploy...) */
-    [data-testid="stToolbar"]                { display: none !important; }
-    [data-testid="stDecoration"]             { display: none !important; }
-    [data-testid="stStatusWidget"]           { display: none !important; }
-    [data-testid="manage-app-button"]        { display: none !important; }
-    [data-testid="stAppViewerBadge"]         { display: none !important; }
-    [data-testid="stAppDeployButton"]        { display: none !important; }
-    [class*="viewerBadge"]                   { display: none !important; }
-    [class*="styles_viewerBadge"]            { display: none !important; }
-    a[href*="streamlit.io"]                  { display: none !important; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 
