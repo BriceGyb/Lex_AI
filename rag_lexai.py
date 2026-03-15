@@ -234,7 +234,12 @@ Respond using this structure:
 
 LANGUE_INSTRUCTIONS = {
     "fr": "Réponds entièrement en français.",
-    "en": "Answer entirely in English. Translate the legal article citations into English while keeping the original French article references (e.g. 'Article 1240 of the Civil Code').",
+    "en": (
+        "Answer entirely in English. "
+        "IMPORTANT: The source articles are in French — you MUST translate ALL quoted article text into English in your response. "
+        "Keep the original French article reference (e.g. 'Article 1240 of the Civil Code / Code Civil') "
+        "but always provide an English translation of the actual legal text."
+    ),
 }
 
 def creer_chaine_rag(vectorstore: FAISS, documents: list[Document]):

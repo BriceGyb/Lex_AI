@@ -227,6 +227,8 @@ if question:
                 vus.add(cle)
 
         with st.expander(f"📋 {len(sources_uniques)} source article(s) used"):
+            if langue_code == "en":
+                st.caption("⚠️ Source texts are in French (official legal corpus). The answer above includes English translations.")
             for doc in sources_uniques:
                 st.markdown(
                     f"**{doc.metadata['code']}** — {doc.metadata['article']}  \n"
