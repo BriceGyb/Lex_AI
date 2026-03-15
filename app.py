@@ -154,6 +154,19 @@ with st.sidebar:
         st.rerun()
 
 
+# ── Translation helper ─────────────────────────────────────────────────────────
+
+@st.cache_data(show_spinner=False)
+def traduire_snippet(texte_fr: str) -> str:
+    """Traduit un extrait de texte juridique français vers l'anglais (mis en cache)."""
+    from langchain_openai import ChatOpenAI
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    result = llm.invoke(
+        f"Translate this French legal text to English. Return only the translation, no explanation:\n\n{texte_fr}"
+    )
+    return result.content
+
+
 # ── Pipeline loading (once, persistent) ───────────────────────────────────────
 
 @st.cache_resource(show_spinner="Loading legal corpus...")
@@ -227,15 +240,16 @@ if question:
                 vus.add(cle)
 
         with st.expander(f"📋 {len(sources_uniques)} source article(s) used"):
-            if langue_code == "en":
-                st.caption("⚠️ Source texts are in French (official legal corpus). The answer above includes English translations.")
             for doc in sources_uniques:
+                snippet = doc.page_content[:350] + "..."
+                if langue_code == "en":
+                    snippet = traduire_snippet(snippet)
                 st.markdown(
                     f"**{doc.metadata['code']}** — {doc.metadata['article']}  \n"
                     f"*{doc.metadata['domaine']}*  \n"
                     f"[View on Légifrance]({doc.metadata.get('url', '#')})"
                 )
-                st.caption(doc.page_content[:350] + "...")
+                st.caption(snippet)
                 st.divider()
 
     sources_meta = [
