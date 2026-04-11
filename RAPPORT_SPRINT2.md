@@ -14,7 +14,7 @@
 **Étudiant :** GYEBRE Brice Joseph Emeric  
 **Date :** 10 avril 2026  
 **Sprint :** Sprint 2 — Période : 28 mars – 10 avril 2026  
-**Dépôt :** https://github.com/BriceGyb/Lex_AI  
+**Dépôt :** https://github.com/BriceGyb/DeepLearningProject  
 **Démo live :** https://szxwfxnc2zns6de7pthpr8.streamlit.app
 
 ---
