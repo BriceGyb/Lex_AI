@@ -217,7 +217,7 @@ class LegiFranceFetcher:
                 # 2. Extraction des IDs d'articles
                 ids = []
                 self._extraire_ids_articles(tdm, ids, self.max_articles)
-                print(f"  → {len(ids)} articles trouvés (limite: {self.max_articles})")
+                print(f"  -> {len(ids)} articles trouves (limite: {self.max_articles})")
 
                 # 3. Récupération article par article
                 nb_ok = 0
@@ -233,4 +233,4 @@ class LegiFranceFetcher:
                         print(f"  [Erreur article {art_id}] {e}")
                         continue
 
-                print(f"  → {nb_ok} articles récupérés avec succès.")
+                print(f"  -> {nb_ok} articles recuperes avec succes.")

@@ -32,6 +32,8 @@ CHUNK_OVERLAP_CHARS = 400
 BM25_WEIGHT        = 0.35
 VECTOR_WEIGHT      = 0.65
 TOP_K              = 5
+RERANKER_MODEL     = "BAAI/bge-reranker-base"
+RERANKER_TOP_K     = 3
 
 # ── MODULE 2 — Nettoyage / Normalisation ──────────────────────────────────────
 
@@ -116,7 +118,7 @@ def charger_corpus(chemin_json: str) -> list[Document]:
         documents.extend(chunks)
 
     nb_articles = len(data["corpus_juridique"])
-    print(f"[+] {nb_articles} articles → {len(documents)} chunks après chunking.")
+    print(f"[+] {nb_articles} articles -> {len(documents)} chunks apres chunking.")
     return documents
 
 
@@ -170,9 +172,9 @@ class HybridRetriever:
     def _rrf(self, rank: int, k: int = 60) -> float:
         return 1.0 / (k + rank)
 
-    def invoke(self, question: str, code_filtre: str = None) -> list[Document]:
+    def invoke(self, question: str, code_filtre: str = None, top_k: int = TOP_K) -> list[Document]:
         # 1. Recherche vectorielle (post-filtrage si code_filtre)
-        fetch_k = TOP_K * 4 if code_filtre else TOP_K * 2
+        fetch_k = top_k * 4 if code_filtre else top_k * 2
         vec_results = self.vs.similarity_search_with_score(question, k=fetch_k)
 
         if code_filtre:
@@ -190,7 +192,7 @@ class HybridRetriever:
                 if doc.metadata.get("code") != code_filtre:
                     bm25_scores[i] = 0.0
 
-        bm25_ranked = np.argsort(bm25_scores)[::-1][:TOP_K * 2]
+        bm25_ranked = np.argsort(bm25_scores)[::-1][:top_k * 2]
 
         # 3. RRF fusion
         scores: dict[int, float] = {}
@@ -206,8 +208,36 @@ class HybridRetriever:
         for rank, idx in enumerate(bm25_ranked):
             scores[idx] = scores.get(idx, 0) + BM25_WEIGHT * self._rrf(rank)
 
-        top_indices = sorted(scores, key=scores.get, reverse=True)[:TOP_K]
+        top_indices = sorted(scores, key=scores.get, reverse=True)[:top_k]
         return [self.documents[i] for i in top_indices]
+
+
+# ── MODULE 10 — Cross-Encoder Reranking (BGE-Reranker) ───────────────────────
+
+class CrossEncoderReranker:
+    """
+    Reranker Cross-Encoder : re-score les Top-N docs avec attention croisée.
+    Modèle : BAAI/bge-reranker-base (open-source, tourne en local).
+
+    Contrairement aux bi-encoders (FAISS), le cross-encoder analyse la question
+    et le document ENSEMBLE (attention croisée) → scores de pertinence plus fins.
+    Pipeline : Top-10 hybrid → CrossEncoder → Top-3 meilleurs.
+    """
+
+    def __init__(self, model_name: str = RERANKER_MODEL):
+        from sentence_transformers import CrossEncoder
+        print(f"[+] Chargement reranker : {model_name}")
+        self.model = CrossEncoder(model_name)
+        print(f"[+] Reranker pret.")
+
+    def rerank(self, question: str, documents: list[Document], top_k: int = RERANKER_TOP_K) -> list[Document]:
+        """Re-score les documents et retourne les top_k meilleurs."""
+        if not documents:
+            return documents
+        pairs  = [(question, doc.page_content) for doc in documents]
+        scores = self.model.predict(pairs)
+        ranked = sorted(zip(scores, documents), key=lambda x: x[0], reverse=True)
+        return [doc for _, doc in ranked[:top_k]]
 
 
 # ── MODULE 3+6 — Chaîne RAG avec prompt structuré ────────────────────────────
@@ -241,9 +271,16 @@ LANGUE_INSTRUCTIONS = {
 **Conclusion**: [Direct answer to the question, in English]""",
 }
 
-def creer_chaine_rag(vectorstore: FAISS, documents: list[Document]):
-    """Crée la chaîne RAG avec hybrid retriever (BM25 + vectoriel)."""
-    hybrid = HybridRetriever(vectorstore, documents)
+def creer_chaine_rag(vectorstore: FAISS, documents: list[Document], use_reranking: bool = False):
+    """
+    Crée la chaîne RAG avec hybrid retriever (BM25 + vectoriel).
+    use_reranking=True : ajoute un Cross-Encoder BGE-Reranker entre retrieval et génération.
+      - Fetch Top-10 via hybrid search
+      - Reranking → Top-3 (attention croisée question+document)
+    use_reranking=False : pipeline baseline Top-5 (comportement Sprint 1).
+    """
+    hybrid   = HybridRetriever(vectorstore, documents)
+    reranker = CrossEncoderReranker() if use_reranking else None
 
     llm = ChatOpenAI(
         model=LLM_MODEL,
@@ -257,8 +294,16 @@ def creer_chaine_rag(vectorstore: FAISS, documents: list[Document]):
     def preparer_input(inp: dict) -> dict:
         question = inp["question"]
         langue   = inp.get("langue", "fr")
+
+        # Avec reranking : fetch Top-10 puis rerank → Top-3
+        # Sans reranking : fetch Top-5 direct (baseline)
+        fetch_k = TOP_K * 2 if reranker else TOP_K
+        docs    = hybrid.invoke(question, inp.get("code_filtre"), top_k=fetch_k)
+        if reranker:
+            docs = reranker.rerank(question, docs)
+
         return {
-            "context":            formater_docs(hybrid.invoke(question, inp.get("code_filtre"))),
+            "context":            formater_docs(docs),
             "question":           question,
             "langue_instruction": LANGUE_INSTRUCTIONS.get(langue, LANGUE_INSTRUCTIONS["fr"]),
         }
@@ -269,7 +314,7 @@ def creer_chaine_rag(vectorstore: FAISS, documents: list[Document]):
         | llm
         | StrOutputParser()
     )
-    return chaine, hybrid
+    return chaine, hybrid, reranker
 
 
 # ── Interface CLI ──────────────────────────────────────────────────────────────
@@ -296,7 +341,7 @@ def main():
 
     documents   = charger_corpus("lois_francaises.json")
     vectorstore = construire_vectorstore(documents)
-    chaine, hybrid = creer_chaine_rag(vectorstore, documents)
+    chaine, hybrid, _ = creer_chaine_rag(vectorstore, documents)
 
     print("\n[LexAI] Prêt. Tapez 'quit' pour quitter.\n")
 

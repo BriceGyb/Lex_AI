@@ -170,13 +170,13 @@ def traduire_snippet(texte_fr: str) -> str:
 # ── Pipeline loading (once, persistent) ───────────────────────────────────────
 
 @st.cache_resource(show_spinner="Loading legal corpus...")
-def charger_pipeline():
+def charger_pipeline(use_reranking: bool = False):
     docs = charger_corpus("lois_francaises.json")
     vs   = construire_vectorstore(docs)
-    chaine, hybrid = creer_chaine_rag(vs, docs)
-    return chaine, hybrid, docs
+    chaine, hybrid, reranker = creer_chaine_rag(vs, docs, use_reranking=use_reranking)
+    return chaine, hybrid, reranker, docs
 
-chaine, hybrid, documents = charger_pipeline()
+chaine, hybrid, reranker, documents = charger_pipeline(use_reranking=True)
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 

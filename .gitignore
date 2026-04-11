@@ -17,6 +17,10 @@ env/
 
 # PDF (large file)
 LexAI_Document_Technique.pdf
+Sprint (3).pdf
+
+# RAGAS — sorties générées (committer si tu veux tracker l'historique)
+pipeline_outputs.json
 
 # OS
 .DS_Store
